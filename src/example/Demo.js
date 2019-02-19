@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import moment from 'moment';
+import './index.css';
 import RangePicker from '../component/RangePicker';
 
 import { LocaleProvider, Table } from 'antd';

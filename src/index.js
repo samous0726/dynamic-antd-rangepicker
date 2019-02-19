@@ -1,2 +1,3 @@
-import './index.css';
-import './example/Demo'
+import RangePicker from './component/RangePicker'
+
+export default RangePicker
