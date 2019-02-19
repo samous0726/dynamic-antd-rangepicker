@@ -1,0 +1,70 @@
+{
+  "name": "dynamic-antd-rangepicker",
+  "version": "0.0.1",
+  "description": "拓展antd时间范围组件禁用时间可配置性",
+  "main": "dist/index.js",
+  "babel": {
+    "presets": [
+      "es2015",
+      "latest"
+    ],
+    "plugins": []
+  },
+  "scripts": {
+    "start": "react-scripts-me start",
+    "build": "react-scripts-me build",
+    "test": "npm link react-data-driver && npm link react-scripts-me",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samous0726/dynamic-antd-rangepicker.git"
+  },
+  "keywords": [
+    "antd",
+    "rangepicker"
+  ],
+  "author": "https://github.com/samous0726",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samous0726/dynamic-antd-rangepicker/issues"
+  },
+  "homepage": "https://github.com/samous0726/dynamic-antd-rangepicker#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "antd": "^3.12.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-me": "^1.0.5",
+    "babel-loader": "8.0.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react",
+      "standard"
+    ],
+    "globals": {
+      "globalTaskId": true
+    },
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "quote-props": "off",
+      "no-trailing-spaces": "off",
+      "eol-last": "off",
+      "semi": "off",
+      "react/jsx-uses-react": "error",
+      "react/prop-types": "off"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
