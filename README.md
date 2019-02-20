@@ -17,6 +17,15 @@ npm start
 ## Get Started Immediately：
 
 ### npm
+```
+npm i dynamic-antd-rangepicker --save 
+```
+
+###  CDN 
+```
+https://unpkg.com/dynamic-antd-rangepicker@0.0.3/build/static/js/main.js
+```
+
 
 <br><br>
 ## issues：

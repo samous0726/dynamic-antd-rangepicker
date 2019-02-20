@@ -1,5 +1,5 @@
 import React from 'react';
-import {DatePicker} from 'antd';
+import { DatePicker } from 'antd';
 import moment from 'moment';
 
 export default class RangePicker extends React.Component {
@@ -11,8 +11,8 @@ export default class RangePicker extends React.Component {
   }
 
   disabledDate = (now) => {
-    const {maxDate, dateLimit, dynamicDateLimit} = this.props;
-    const {selected} = this.state;
+    const { maxDate, dateLimit, dynamicDateLimit } = this.props;
+    const { selected } = this.state;
     let beforeDay = null;
     let afterDay = null;
     if (dateLimit) {
@@ -36,7 +36,7 @@ export default class RangePicker extends React.Component {
   }
 
   onCalendarChange = (now) => {
-    const {dateLimit, dynamicDateLimit} = this.props;
+    const { dateLimit, dynamicDateLimit } = this.props;
     if (dateLimit && dynamicDateLimit && now.length === 1) {
       this.setState({
         selected: now[0]

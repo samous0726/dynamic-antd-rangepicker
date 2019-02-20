@@ -1,6 +1,6 @@
 {
   "name": "dynamic-antd-rangepicker",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "拓展antd时间范围组件禁用时间可配置性",
   "main": "./build/static/js/main.js",
   "babel": {
@@ -37,21 +37,22 @@
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "react-scripts-me": "^1.0.5"
+    "react-scripts-me": "^1.0.7"
   },
   "eslintConfig": {
-    "extends": [
-      "react",
-      "standard"
-    ],
+    "root": true,
+    "extends": "react-app",
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "es6": true
+    },
     "globals": {
       "globalTaskId": true
     },
     "rules": {
-      "indent": [
-        "error",
-        4
-      ],
+      "no-constant-condition": 2,
+      "indent": [ 2, 4 ],
       "quote-props": "off",
       "no-trailing-spaces": "off",
       "eol-last": "off",
