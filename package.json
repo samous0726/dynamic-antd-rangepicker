@@ -1,11 +1,11 @@
 {
   "name": "dynamic-antd-rangepicker",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "拓展antd时间范围组件禁用时间可配置性",
-  "main": "./static/js/main.js",
+  "main": "./lib/main.js",
   "scripts": {
     "start": "react-scripts-me start",
-    "build": "react-scripts-me build",
+    "build": "react-scripts-me build --out-dir lib",
     "test": "npm link react-data-driver && npm link react-scripts-me",
     "eject": "react-scripts eject"
   },
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/samous0726/dynamic-antd-rangepicker#readme",
   "dependencies": {
-    "moment": "^2.24.0",
     "antd": "^3.12.3",
+    "moment": "^2.24.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
@@ -45,7 +45,10 @@
     },
     "rules": {
       "no-constant-condition": 2,
-      "indent": [ 2, 4 ],
+      "indent": [
+        2,
+        4
+      ],
       "quote-props": "off",
       "no-trailing-spaces": "off",
       "eol-last": "off",
