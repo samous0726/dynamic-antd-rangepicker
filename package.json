@@ -1,6 +1,6 @@
 {
   "name": "dynamic-antd-rangepicker",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "拓展antd时间范围组件禁用时间可配置性",
   "main": "./lib/js/main.min.js",
   "scripts": {
