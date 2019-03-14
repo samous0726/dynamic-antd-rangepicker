@@ -1,8 +1,8 @@
 {
   "name": "dynamic-antd-rangepicker",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "拓展antd时间范围组件禁用时间可配置性",
-  "main": "./lib/main.js",
+  "main": "./lib/js/main.min.js",
   "scripts": {
     "start": "react-scripts-me start",
     "build": "react-scripts-me build --out-dir lib",

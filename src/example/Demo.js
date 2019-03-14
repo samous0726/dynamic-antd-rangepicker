@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import moment from 'moment';
-import '../index.css';
+import './css/index.css';
 import RangePicker from '../component/RangePicker';
 
 import { LocaleProvider, Table } from 'antd';
@@ -13,7 +13,7 @@ const dataSource = [{
   name: 'dynamicDateLimit',
   tag: '动态可选范围模式：根据所传的时间长度，动态设置前后的时间范围',
   type: 'boolean',
-  default: '无'
+  default: ''
 }, {
   key: '2',
   name: 'maxDate',
@@ -25,7 +25,7 @@ const dataSource = [{
   name: 'dateLimit',
   tag: '限制可选的日期长度： { year: 1 }  { month: 1 }  { week: 1 }  { day: 1 } 四选一，如传入多个属性，以最后一个属性为准',
   type: 'object',
-  default: '无'
+  default: ''
 }];
 
 const columns = [{
